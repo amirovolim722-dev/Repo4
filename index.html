@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Описание Mailer, настольной программы Windows для отправки снимков через Gmail API и анализа по запросу.">
+<title>Mailer — отправка снимков экрана</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#content">К содержанию</a>
+<header><div class="wrap head"><a class="brand" href="index.html"><span class="mark" aria-hidden="true">M</span> Mailer</a><nav aria-label="Страницы сайта"><a href="index.html" aria-current="page">О программе</a><a href="privacy.html">Конфиденциальность</a><a href="terms.html">Условия</a></nav></div></header>
+<main id="content" class="wrap">
+<section class="hero" aria-labelledby="title">
+  <p class="eyebrow">Настольная программа · Windows</p>
+  <h1 id="title">Отправка снимков экрана с Mailer</h1>
+  <p>Mailer делает снимки экрана на компьютерах, где программа установлена с разрешения администратора. Программа отправляет их через авторизованный аккаунт Gmail указанному получателю.</p>
+  <div class="actions"><a class="button primary" href="privacy.html">Как используются данные</a><a class="button" href="terms.html">Условия использования</a></div>
+</section>
+<section aria-labelledby="workflow">
+  <h2 id="workflow">Как работает программа</h2>
+  <div class="grid">
+    <article class="card"><span class="number">01</span><h3>Снимок экрана</h3><p>Программа может отправить один снимок при запуске. Следующий снимок можно сделать сочетанием <kbd>Shift+1</kbd>.</p></article>
+    <article class="card"><span class="number">02</span><h3>Отправка письма</h3><p>Mailer прикрепляет снимок к письму и отправляет его на адрес, заданный администратором. При сбое отправки задача может временно сохраниться на компьютере.</p></article>
+    <article class="card"><span class="number">03</span><h3>Анализ по запросу</h3><p>После <kbd>Shift+1</kbd> Mailer проверяет разрешающее письмо. Если разрешение есть и настроен OpenAI API, программа может передать снимок для анализа и показать предполагаемый ответ.</p></article>
+  </div>
+</section>
+<section class="note" aria-labelledby="permission">
+  <h2 id="permission">Зачем Mailer доступ к Gmail</h2>
+  <p>Программа отправляет письма, проверяет разрешение на анализ и ищет отправленное письмо, если результат отправки неясен. В <a href="privacy.html">политике конфиденциальности</a> описаны данные, разрешения и порядок отзыва доступа.</p>
+</section>
+</main>
+<footer><div class="wrap foot"><span>Mailer · документация</span><a href="mailto:sahiddinmurtazayev@gmail.com">Связаться с разработчиком</a></div></footer>
+</body>
+</html>
